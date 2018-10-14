@@ -25,9 +25,11 @@ description: A virtual proof that name is awesome!
 navbar-links:
   About Me: "aboutme"
   CATEGORIES:
-    - Beautiful Jekyll: "http://deanattali.com/beautiful-jekyll/"
+    - ARCHIVE: "http://deanattali.com/beautiful-jekyll/"
+    - TAGS: "https://pages.github.com/"
     - Learn markdown: "http://www.markdowntutorial.com/"
-    - GitHub Pages: "https://pages.github.com/"
+  PROJECTS:
+    - 订票系统实战
   Author's home: "http://deanattali.com"
 
 # Image to show in the navigation bar - image must be a square (width = height)
