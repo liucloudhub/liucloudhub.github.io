@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Docker 的安装与常用名利示例
+title:  Docker 的安装与常用命令示例
 image: /img/hello_world.jpeg
 ---
 
@@ -11,10 +11,7 @@ image: /img/hello_world.jpeg
 
 ### Docker 命令自动补全
     这里教大家如何使用shell 命令补全工具
-    
-```javascript
-yum install -y bash-completion(如果未安装需要先安装bash-completion)
-source /usr/share/bash-completion/completions/docker
-source /usr/share/bash-completion/bash_completion
-```
+    yum install -y bash-completion(如果未安装需要先安装bash-completion)
+    source /usr/share/bash-completion/completions/docker
+    source /usr/share/bash-completion/bash_completion
 
