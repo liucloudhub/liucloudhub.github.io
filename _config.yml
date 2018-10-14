@@ -25,7 +25,7 @@ description: A virtual proof that name is awesome!
 navbar-links:
   About Me: "aboutme"
   CATEGORIES:
-    - ARCHIVE: "http://deanattali.com/beautiful-jekyll/"
+    - ARCHIVE: "https://liucloudhub.github.io/2018-09-28-archive"
     - TAGS: "https://pages.github.com/"
     - Learn markdown: "http://www.markdowntutorial.com/"
   PROJECTS:
