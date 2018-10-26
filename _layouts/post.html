@@ -71,10 +71,12 @@ layout: base
                 {% endif %}
             </ul>
 
+            {% include big.html %}
+            
             {% if site.intensedebate-comments %}
             {% include intensedebate-comments.html %}
             {% endif %}
-            {% include big.html %}
+
 
             {% if page.comments %}
             <div class="disqus-comments">
