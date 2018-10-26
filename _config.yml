@@ -238,7 +238,7 @@ prose:
           element: "checkbox"
           label: "Publish"
           help: "Check to publish post, uncheck to hide."
-
+intensedebate-comments: true
 plugins:
   - jekyll-paginate
   - jekyll-sitemap
