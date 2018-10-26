@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb46fd6c-4544-4467-9368-fa3a5564ac0a" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/img/weixin.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/zhifubao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/big.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/big.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_layouts/post.html" beforeDir="false" afterPath="$PROJECT_DIR$/_layouts/post.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -13,11 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="big.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="big.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_includes/big.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
+            <state relative-caret-position="247">
+              <caret line="128" column="20" lean-forward="true" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -31,11 +35,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="post.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="post.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/post.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+            <state relative-caret-position="502">
+              <caret line="76" column="34" lean-forward="true" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -126,10 +130,10 @@
         <option value="$PROJECT_DIR$/_includes/intensedebate-comments.html" />
         <option value="$PROJECT_DIR$/_includes/12.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
-        <option value="$PROJECT_DIR$/_includes/big.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
+        <option value="$PROJECT_DIR$/_includes/big.html" />
       </list>
     </option>
   </component>
@@ -153,8 +157,8 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-317" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-104" />
     <option name="y" value="-18" />
     <option name="width" value="1800" />
     <option name="height" value="910" />
@@ -187,12 +191,7 @@
             <path>
               <item name="liucloudhub.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="liucloudhub.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liucloudhub.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liucloudhub.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="img" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -211,6 +210,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.ide.settings.web.browsers" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="G:\github\liucloudhub.github.io\img" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="G:\github\liucloudhub.github.io\_posts" />
     </key>
@@ -288,12 +290,12 @@
       <updated>1539516364973</updated>
       <workItem from="1539516366418" duration="6713000" />
       <workItem from="1539677528650" duration="73000" />
-      <workItem from="1540559990264" duration="3622000" />
+      <workItem from="1540559990264" duration="4231000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10408000" />
+    <option name="totallyTimeSpent" value="11017000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -312,7 +314,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1985677" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.111328125" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -574,13 +576,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/big.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="383">
-          <caret line="134" lean-forward="true" selection-start-line="134" selection-end-line="134" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
@@ -597,8 +592,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/post.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="74" column="12" selection-start-line="74" selection-start-column="12" selection-end-line="74" selection-end-column="12" />
+        <state relative-caret-position="502">
+          <caret line="76" column="34" lean-forward="true" selection-start-line="76" selection-start-column="34" selection-end-line="76" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/big.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="128" column="20" lean-forward="true" selection-start-line="128" selection-start-column="20" selection-end-line="128" selection-end-column="20" />
         </state>
       </provider>
     </entry>
