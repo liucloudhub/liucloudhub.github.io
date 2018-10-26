@@ -26,7 +26,7 @@ navbar-links:
   Author's home: "https://liucloudhub.github.io"
   CATEGORIES:
     - ARCHIVE: "https://liucloudhub.github.io/2015-01-04-archive"
-    - PYTHON: "https://liucloudhub.github.io/python.html"
+    - PYTHON: "https://liucloudhub.github.io/python"
     - Learn markdown: "http://www.markdowntutorial.com/"
   PROJECTS:
     - 订票系统实战
