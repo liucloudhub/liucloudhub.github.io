@@ -50,8 +50,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/pythons/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="226">
-              <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+            <state relative-caret-position="376">
+              <caret line="25" column="80" lean-forward="true" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
               <folding>
                 <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#0;n#li#0;n#ol#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ol#0;n#!!top" expanded="true" />
@@ -165,7 +165,7 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-278" />
     <option name="y" value="382" />
     <option name="width" value="1943" />
@@ -330,7 +330,7 @@
       <workItem from="1539677528650" duration="73000" />
       <workItem from="1540559990264" duration="6407000" />
       <workItem from="1540626667540" duration="62000" />
-      <workItem from="1540640818785" duration="6710000" />
+      <workItem from="1540640818785" duration="6940000" />
     </task>
     <task id="LOCAL-00001" summary="re">
       <created>1540642215473</created>
@@ -343,10 +343,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19965000" />
+    <option name="totallyTimeSpent" value="20195000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-222" y="306" width="1554" height="545" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -358,11 +358,11 @@
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.013729977" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.008219178" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19155844" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1920573" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -763,8 +763,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/pythons/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="22" column="4" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="4" />
+        <state relative-caret-position="376">
+          <caret line="25" column="80" lean-forward="true" selection-start-line="25" selection-start-column="80" selection-end-line="25" selection-end-column="80" />
           <folding>
             <element signature="n#style#0;n#h4#0;n#a#0;n#div#0;n#div#0;n#li#0;n#ol#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#a#0;n#div#0;n#div#0;n#div#0;n#li#0;n#ol#0;n#!!top" expanded="true" />
