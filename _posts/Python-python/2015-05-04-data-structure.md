@@ -5,7 +5,8 @@ image: /img/hello_world.jpeg
 date:  2015-05-25 15:45:00 +0900  
 description: 开发工具
 img: post-9.jpg # Add image post (optional)
-tags: [数据结构, 元组, 列表, 字典, 集合, 函数, 文件和操作系统]
+tags: [python]
+labels: [数据结构, 元组, 列表, 字典, 集合, 函数, 文件和操作系统]
 author: # Add name author (optional)
 python: true
 ---
