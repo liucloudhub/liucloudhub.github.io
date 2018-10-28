@@ -31,8 +31,8 @@ navbar-links:
     - K8S: "https://liucloudhub.github.io/blog/k8s"
     - Istio: "https://liucloudhub.github.io/blog/istio"
   PROJECTS:
-    - k8s实战项目: "https://liucloudhub.github.io/blog/project/k8s"
-    - istio实战项目: "https://liucloudhub.github.io/blog/project/k8s"
+    - k8s实战项目: "https://liucloudhub.github.io/blog/pk8s"
+    - istio实战项目: "https://liucloudhub.github.io/blog/pistio"
   About Me: "aboutme"
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar

@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb46fd6c-4544-4467-9368-fa3a5564ac0a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/aboutme.md" beforeDir="false" afterPath="$PROJECT_DIR$/aboutme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/project/istio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/pistio/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/blog/project/k8s/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/pk8s/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -40,29 +42,8 @@
       <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_config.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/blog/istio/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2018-08-01-istio-install.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/Istio-istio/2018-08-01-istio-install.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="225">
-                <caret line="9" selection-start-line="9" selection-end-line="9" selection-end-column="40" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="375">
+              <caret line="33" column="55" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="55" />
             </state>
           </provider>
         </entry>
@@ -79,14 +60,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="aboutme.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="aboutme.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/aboutme.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="425">
-                <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+              <first_editor relative-caret-position="350">
+                <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
               </first_editor>
               <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/pk8s/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/blog/k8s/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/blog/pistio/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -100,18 +108,6 @@
                 <folding>
                   <element signature="e#500#533#0" />
                 </folding>
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="2017-06-29-docker-install.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/K8s-k8s/2017-06-29-docker-install.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="27">
-                <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
               </first_editor>
               <second_editor />
             </state>
@@ -190,7 +186,6 @@
         <option value="$PROJECT_DIR$/blog/project/k8s/index.html" />
         <option value="$PROJECT_DIR$/blog/project/istio/index.html" />
         <option value="$PROJECT_DIR$/blog/archive/index.html" />
-        <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/blog/istio/index.html" />
         <option value="$PROJECT_DIR$/blog/k8s/index.html" />
         <option value="$PROJECT_DIR$/_posts/Istio-istio/2018-08-01-istio-install.md" />
@@ -200,6 +195,7 @@
         <option value="$PROJECT_DIR$/_posts/Python-python/2015-05-03-grammar.md" />
         <option value="$PROJECT_DIR$/_posts/Python-python/2015-05-04-data-structure.md" />
         <option value="$PROJECT_DIR$/aboutme.md" />
+        <option value="$PROJECT_DIR$/_config.yml" />
       </list>
     </option>
   </component>
@@ -223,9 +219,9 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="1">
-    <option name="x" value="-338" />
-    <option name="y" value="242" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="42" />
+    <option name="y" value="-9" />
     <option name="width" value="1943" />
     <option name="height" value="1102" />
   </component>
@@ -306,21 +302,13 @@
               <item name="liucloudhub.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="liucloudhub.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
+              <item name="pistio" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liucloudhub.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="liucloudhub.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="istio" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="liucloudhub.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="liucloudhub.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="project" type="462c0819:PsiDirectoryNode" />
-              <item name="k8s" type="462c0819:PsiDirectoryNode" />
+              <item name="pk8s" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="liucloudhub.github.io" type="b2602c69:ProjectViewProjectNode" />
@@ -357,11 +345,11 @@
       <recent name="G:\github\liucloudhub.github.io\blog\project\k8s" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\github\liucloudhub.github.io\blog\pistio" />
+      <recent name="G:\github\liucloudhub.github.io\blog\pk8s" />
       <recent name="G:\github\liucloudhub.github.io\blog\project\istio" />
       <recent name="G:\github\liucloudhub.github.io\_posts\K8s-k8s" />
       <recent name="G:\github\liucloudhub.github.io\blog" />
-      <recent name="G:\github\liucloudhub.github.io\pythons" />
-      <recent name="G:\github\liucloudhub.github.io" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -456,7 +444,7 @@
       <workItem from="1540626667540" duration="62000" />
       <workItem from="1540640818785" duration="8935000" />
       <workItem from="1540695936385" duration="3731000" />
-      <workItem from="1540699693943" duration="7313000" />
+      <workItem from="1540699693943" duration="7561000" />
     </task>
     <task id="LOCAL-00001" summary="re">
       <created>1540642215473</created>
@@ -469,7 +457,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33234000" />
+    <option name="totallyTimeSpent" value="33482000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -719,20 +707,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/project/k8s/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/blog/project/istio/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="29" selection-start-line="3" selection-start-column="29" selection-end-line="3" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/archive/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="286">
@@ -740,24 +714,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/blog/k8s/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/blog/istio/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="12" column="4" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="32" column="11" lean-forward="true" selection-start-line="32" selection-start-column="11" selection-end-line="32" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -789,16 +749,6 @@
             <folding>
               <element signature="e#500#533#0" />
             </folding>
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/Pistio-pistio/2017-06-029-pistio-demo.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="350">
-            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
           </first_editor>
           <second_editor />
         </state>
@@ -842,10 +792,48 @@
     <entry file="file://$PROJECT_DIR$/aboutme.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="425">
-            <caret line="17" column="62" selection-start-line="17" selection-start-column="62" selection-end-line="17" selection-end-column="62" />
+          <first_editor relative-caret-position="350">
+            <caret line="14" column="51" lean-forward="true" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Pistio-pistio/2017-06-029-pistio-demo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="350">
+            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/pk8s/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="20" lean-forward="true" selection-start-line="4" selection-start-column="20" selection-end-line="4" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/k8s/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="33" column="55" selection-start-line="33" selection-start-column="51" selection-end-line="33" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/blog/pistio/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
         </state>
       </provider>
     </entry>
