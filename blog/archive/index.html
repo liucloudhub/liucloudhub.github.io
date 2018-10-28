@@ -6,45 +6,57 @@ use-site-title: true
 ---
 {% assign count = 0 %}
 <ol class="post-card-box clearfix">
+        K8s, isito
     {% for post in site.posts %}
 
 
-<li>
-    {% if post.python%}
-<div class="blog-tags">
-        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
-
-</div>
-    {% endif %}
-
     {% if post.k8s%}
-<div class="blog-tags">
+<ol>
+<div class="blog-archive">
         <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 
 </div>
+</ol>
     {% endif %}
 
     {% if post.istio%}
-<div class="blog-tags">
+<ol>
+<div class="blog-archive">
         <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 
 </div>
+</ol>
     {% endif %}
 
     {% if post.pk8s%}
-<div class="blog-tags">
+<ol>
+<div class="blog-archive">
         <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 
 </div>
+</ol>
     {% endif %}
 
     {% if post.pistio%}
-<div class="blog-tags">
+<ol>
+<div class="blog-archive">
+        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
+</div>
+</ol>
+    {% endif %}
+    {% endfor %}
+
+
+    {% for post in site.posts %}
+        Python,数据分析，可视化
+    {% if post.python%}
+<ol>
+<div class="blog-archive">
         <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 
 </div>
+</ol>
     {% endif %}
-</li>
     {% endfor %}
 
 </ol>

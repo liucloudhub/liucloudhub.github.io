@@ -401,6 +401,13 @@ footer .theme-by {
   margin-bottom: 30px;
 }
 
+.blog-archive{
+  font-family: 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #999;
+  font-size: 15px;
+  margin-bottom: 3px;
+}
+
 .blog-tags a {
   color: {{ site.link-col }};
   text-decoration: none;

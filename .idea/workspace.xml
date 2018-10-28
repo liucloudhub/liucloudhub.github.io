@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb46fd6c-4544-4467-9368-fa3a5564ac0a" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/2015-02-28-test-markdown.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Test-test/2015-02-28-test-markdown.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/archive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/archive/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -49,18 +52,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2015-05-04-data-structure.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/Python-python/2015-05-04-data-structure.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="656">
-                <caret line="1558" column="22" lean-forward="true" selection-start-line="1558" selection-start-column="22" selection-end-line="1558" selection-end-column="22" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="2017-06-29-docker-install.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/K8s-k8s/2017-06-29-docker-install.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -74,7 +65,7 @@
         </entry>
       </file>
       <file leaf-file-name="2015-02-28-test-markdown.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_posts/2015-02-28-test-markdown.md">
+        <entry file="file://$PROJECT_DIR$/_posts/Test-test/2015-02-28-test-markdown.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="150">
@@ -101,11 +92,20 @@
         <entry file="file://$PROJECT_DIR$/blog/archive/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="408">
-              <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+              <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
               <folding>
                 <element signature="n#style#0;n#h4#0;n#a#0;n#div#2;n#li#0;n#ol#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#h4#0;n#a#0;n#div#4;n#li#0;n#ol#0;n#!!top" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="main.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/main.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="421">
+              <caret line="403" column="14" lean-forward="true" selection-start-line="403" selection-start-column="14" selection-end-line="403" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -157,6 +157,7 @@
       <find>hello_world.py</find>
       <find>post-title</find>
       <find>一股脑把下面这些指令全执行了就OK了</find>
+      <find>blog-tags</find>
     </findStrings>
   </component>
   <component name="GOROOT" path="E:\soft\go" />
@@ -172,7 +173,6 @@
         <option value="$PROJECT_DIR$/_posts/2015-01-04-archive.md" />
         <option value="$PROJECT_DIR$/_includes/intensedebate-comments.html" />
         <option value="$PROJECT_DIR$/_includes/12.html" />
-        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_includes/big.html" />
@@ -206,6 +206,7 @@
         <option value="$PROJECT_DIR$/_posts/Pistio-pistio/2017-06-029-pistio-demo.md" />
         <option value="$PROJECT_DIR$/_posts/Pk8s-pk8s/2017-06-029-pk8s-demo.md" />
         <option value="$PROJECT_DIR$/_posts/K8s-k8s/2018-07-02-k8s-install.md" />
+        <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/blog/archive/index.html" />
       </list>
     </option>
@@ -355,11 +356,11 @@
       <recent name="G:\github\liucloudhub.github.io\blog\project\k8s" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="G:\github\liucloudhub.github.io\_posts\Test-test" />
       <recent name="G:\github\liucloudhub.github.io\blog\pistio" />
       <recent name="G:\github\liucloudhub.github.io\blog\pk8s" />
       <recent name="G:\github\liucloudhub.github.io\blog\project\istio" />
       <recent name="G:\github\liucloudhub.github.io\_posts\K8s-k8s" />
-      <recent name="G:\github\liucloudhub.github.io\blog" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -454,7 +455,7 @@
       <workItem from="1540626667540" duration="62000" />
       <workItem from="1540640818785" duration="8935000" />
       <workItem from="1540695936385" duration="3731000" />
-      <workItem from="1540699693943" duration="9299000" />
+      <workItem from="1540699693943" duration="10073000" />
     </task>
     <task id="LOCAL-00001" summary="re">
       <created>1540642215473</created>
@@ -467,7 +468,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="35220000" />
+    <option name="totallyTimeSpent" value="35994000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="446" y="0" width="1554" height="830" extended-state="0" />
@@ -523,7 +524,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-02-28-test-markdown.md">
+    <entry file="file://$PROJECT_DIR$/_posts/Test-test/2015-02-28-test-markdown.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="50">
@@ -620,13 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="9" column="7" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="19600">
-          <caret line="784" selection-start-line="784" selection-end-line="784" />
         </state>
       </provider>
     </entry>
@@ -800,16 +794,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2015-02-28-test-markdown.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="150">
-            <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Python-python/2015-05-03-grammar.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -840,10 +824,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Test-test/2015-02-28-test-markdown.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="150">
+            <caret line="6" column="12" lean-forward="true" selection-start-line="6" selection-start-column="12" selection-end-line="6" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="403" column="14" lean-forward="true" selection-start-line="403" selection-start-column="14" selection-end-line="403" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/blog/archive/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
-          <caret line="46" column="5" selection-start-line="46" selection-start-column="5" selection-end-line="46" selection-end-column="5" />
+          <caret line="58" column="15" lean-forward="true" selection-start-line="58" selection-start-column="15" selection-end-line="58" selection-end-column="15" />
           <folding>
             <element signature="n#style#0;n#h4#0;n#a#0;n#div#2;n#li#0;n#ol#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#h4#0;n#a#0;n#div#4;n#li#0;n#ol#0;n#!!top" expanded="true" />
