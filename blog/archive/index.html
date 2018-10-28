@@ -1,0 +1,42 @@
+---
+layout: page
+title: Archive
+subtitle: 微服务, k8s, istio, python,devops, 可视化
+use-site-title: true
+---
+{% assign count = 0 %}
+<ol class="post-card-box clearfix">
+    {% for post in site.posts %}
+<article class="post-preview">
+  Python  {% if post.python%}
+<li>
+<div class="post-card">
+        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-image" style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )">
+</a>
+
+<div class="blog-tags">
+        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
+
+</div>
+</div>
+</li>
+    {% endif %}
+
+    {% if post.k8s%}
+<li>
+<div class="post-card">
+        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-image" style="background-image: url( {{ "/assets/img/" | prepend: site.baseurl | append : post.img}} )">
+</a>
+
+<div class="blog-tags">
+        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
+
+</div>
+</div>
+</li>
+    {% endif %}
+
+</article>
+    {% endfor %}
+
+</ol>

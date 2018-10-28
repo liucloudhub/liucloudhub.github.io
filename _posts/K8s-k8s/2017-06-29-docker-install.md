@@ -2,6 +2,9 @@
 layout: post
 title:  Docker 的安装与常用命令示例
 image: /img/hello_world.jpeg
+date:  2017-06-29 15:00:00 +0800  
+tags: [docker]
+labels: [docker, 安装]
 ---
 
 #### Docker的安装

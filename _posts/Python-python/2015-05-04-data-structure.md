@@ -2,7 +2,7 @@
 layout: post
 title: Python 数据结构
 image: /img/hello_world.jpeg
-date:  2015-05-25 15:45:00 +0900  
+date:  2015-05-25 15:45:00 +0800  
 description: 开发工具
 img: post-9.jpg # Add image post (optional)
 tags: [python]
@@ -11,8 +11,6 @@ author: # Add name author (optional)
 python: true
 ---
 我们会从Python最基础的数据结构开始：元组、列表、字典和集合。然后会讨论创建你自己的、可重复使用的Python函数。最后，会学习Python的文件对象，以及如何与本地硬盘交互。
-
-
 # 3.1 数据结构和序列
 Python的数据结构简单而强大。
 ## 元组
