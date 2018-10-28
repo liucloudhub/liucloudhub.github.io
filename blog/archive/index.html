@@ -8,30 +8,43 @@ use-site-title: true
 <ol class="post-card-box clearfix">
     {% for post in site.posts %}
 
-  {% if post.python%}
-<article class="post-preview">
+
 <li>
+    {% if post.python%}
 <div class="blog-tags">
         <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 
 </div>
-</div>
-</li>
     {% endif %}
 
     {% if post.k8s%}
-<li>
-
 <div class="blog-tags">
         <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 
 </div>
-</div>
-</li>
-</article>
     {% endif %}
 
+    {% if post.istio%}
+<div class="blog-tags">
+        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 
+</div>
+    {% endif %}
+
+    {% if post.pk8s%}
+<div class="blog-tags">
+        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
+
+</div>
+    {% endif %}
+
+    {% if post.pistio%}
+<div class="blog-tags">
+        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
+
+</div>
+    {% endif %}
+</li>
     {% endfor %}
 
 </ol>
