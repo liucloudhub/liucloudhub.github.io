@@ -7,56 +7,57 @@ use-site-title: true
 {% assign count = 0 %}
 <ol class="post-card-box clearfix">
         K8s, isito
+ <ol class="post-preview">
     {% for post in site.posts %}
-
-
     {% if post.k8s%}
-<ol>
+<li>
 <div class="blog-archive">
         <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 
 </div>
-</ol>
+</li>
     {% endif %}
 
     {% if post.istio%}
-<ol>
+<li>
 <div class="blog-archive">
         <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 
 </div>
-</ol>
+</li>
     {% endif %}
 
     {% if post.pk8s%}
-<ol>
+<li>
 <div class="blog-archive">
         <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 
 </div>
-</ol>
+</li>
     {% endif %}
 
     {% if post.pistio%}
-<ol>
+<li>
 <div class="blog-archive">
         <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 </div>
-</ol>
+</li>
     {% endif %}
     {% endfor %}
+</ol>
 
-
+    Python,数据分析，可视化
+ <ol class="post-preview">
     {% for post in site.posts %}
-        Python,数据分析，可视化
     {% if post.python%}
-<ol>
+<li>
 <div class="blog-archive">
         <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 
 </div>
-</ol>
+</li>
     {% endif %}
     {% endfor %}
+</ol>
 
 </ol>
