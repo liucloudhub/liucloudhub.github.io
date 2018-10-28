@@ -2,10 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb46fd6c-4544-4467-9368-fa3a5564ac0a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Python-python/2015-05-01-python.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Python-python/2015-05-01-python.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Python-python/2015-05-03-grammar.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Python-python/2015-05-03-grammar.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Python-python/2015-05-04-data-structure.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Python-python/2015-05-04-data-structure.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/blog/pythons/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/pythons/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,8 +58,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/blog/pythons/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+            <state relative-caret-position="391">
+              <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -191,7 +187,7 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="12" />
+    <option name="x" value="105" />
     <option name="y" value="-9" />
     <option name="width" value="1943" />
     <option name="height" value="840" />
@@ -358,7 +354,7 @@
       <workItem from="1540626667540" duration="62000" />
       <workItem from="1540640818785" duration="8935000" />
       <workItem from="1540695936385" duration="3731000" />
-      <workItem from="1540699693943" duration="242000" />
+      <workItem from="1540699693943" duration="369000" />
     </task>
     <task id="LOCAL-00001" summary="re">
       <created>1540642215473</created>
@@ -371,7 +367,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26163000" />
+    <option name="totallyTimeSpent" value="26290000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
@@ -732,8 +728,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/blog/pythons/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="24" column="18" lean-forward="true" selection-start-line="24" selection-start-column="18" selection-end-line="24" selection-end-column="18" />
+        <state relative-caret-position="391">
+          <caret line="27" column="16" lean-forward="true" selection-start-line="27" selection-start-column="16" selection-end-line="27" selection-end-column="16" />
         </state>
       </provider>
     </entry>

@@ -18,11 +18,7 @@ use-site-title: true
 
 <div class="blog-tags">
       <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4>  Posted on {{ post.date | date: "%B %-d, %Y" }}</a>
-    labels:
-    {% for label in post.labels %}
-        <!--<a href="{{site.baseurl}}/tags#{{tag}}" class="tag">|&#32;{{ tag }}</a>-->
-        <a href="#" class="tag">{{ label }}&#32;</a>
-    {% endfor %}  
+
 <div class="blog-tags" >
         <a href="{{post.url | prepend: site.baseurl}}" style="text-decoration: none; color: inherit;margin-right:20px;">{{ post.content | strip_html | strip_newlines | truncate: 100 }}</a>
 </div>
@@ -30,7 +26,11 @@ use-site-title: true
         <!--<a href="{{site.baseurl}}/tags#{{tag}}" class="tag">|&#32;{{ tag }}</a>-->
     Tags:  <a href="{{site.baseurl}}/tags#{{tag}}" class="tag">{{ tag }}&#32;</a>
     {% endfor %}
-
+    labels:
+    {% for label in post.labels %}
+        <!--<a href="{{site.baseurl}}/tags#{{tag}}" class="tag">|&#32;{{ tag }}</a>-->
+<a href="#" class="tag">{{ label }}&#32;</a>
+    {% endfor %}
 
 </div>
 </div>
