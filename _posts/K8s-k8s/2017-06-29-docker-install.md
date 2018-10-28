@@ -5,6 +5,7 @@ image: /img/hello_world.jpeg
 date:  2017-06-29 15:00:00 +0800  
 tags: [docker]
 labels: [docker, 安装]
+k8s: true
 ---
 
 #### Docker的安装

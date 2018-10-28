@@ -7,8 +7,9 @@ use-site-title: true
 {% assign count = 0 %}
 <ol class="post-card-box clearfix">
     {% for post in site.posts %}
-<article class="post-preview">
+
   {% if post.python%}
+<article class="post-preview">
 <li>
 <div class="blog-tags">
         <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
@@ -27,9 +28,10 @@ use-site-title: true
 </div>
 </div>
 </li>
+</article>
     {% endif %}
 
-</article>
+
     {% endfor %}
 
 </ol>

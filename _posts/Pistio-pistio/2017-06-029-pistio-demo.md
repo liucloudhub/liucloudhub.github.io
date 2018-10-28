@@ -5,8 +5,9 @@ image: /img/hello_world.jpeg
 date:  2018-10-28 15:00:00 +0800  
 description: 开发工具
 img: post-9.jpg # Add image post (optional)
-tags: [istio]
+tags: [pistio]
 labels: [收费]
+pistio: true
 ---
 
 #### 观看说明
