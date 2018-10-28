@@ -7,8 +7,8 @@ use-site-title: true
 {% assign count = 0 %}
 <ol class="post-card-box clearfix">
 
- <ol class="post-arcpreview">
-    <h4 style="color: #F77A0B">Kubernetes/isito/Docker</h4>
+ <ul class="post-arcpreview">
+    <h4 style="color: #F77A0B;margin-left: -50px;">Kubernetes/isito/Docker</h4>
     {% for post in site.posts %}
     {% if post.k8s%}
 <li style="color: #008AFF;">
@@ -45,12 +45,12 @@ use-site-title: true
 </li>
     {% endif %}
     {% endfor %}
-</ol>
+</ul>
 
         <br/>
 
- <ol class="post-arcpreview">
-    <h4 style="color: #F77A0B">Python,数据分析，可视化</h4>
+ <ul class="post-arcpreview">
+    <h4 style="color: #F77A0B;margin-left: -50px;">Python/数据分析/可视化</h4>
     {% for post in site.posts %}
     {% if post.python%}
 <li style="color: #008AFF;">
@@ -61,6 +61,6 @@ use-site-title: true
 </li>
     {% endif %}
     {% endfor %}
-</ol>
+</ul>
 
 </ol>
