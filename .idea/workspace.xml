@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb46fd6c-4544-4467-9368-fa3a5564ac0a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/_posts/Pistio-pistio/2017-06-029-pistio-demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Pistio-pistio/2018-10-28-pistio-demo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Pk8s-pk8s/2017-06-029-pk8s-demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Pk8s-pk8s/2018-10-28-pk8s-demo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/K8s-k8s/2018-07-02-k8s-install.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/K8s-k8s/2018-07-02-k8s-install.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,12 +43,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-07-02-k8s-install.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-07-02-k8s-install.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/K8s-k8s/2018-07-02-k8s-install.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1530">
-                <caret line="163" column="46" lean-forward="true" selection-start-line="163" selection-start-column="46" selection-end-line="163" selection-end-column="46" />
+              <first_editor relative-caret-position="1930">
+                <caret line="171" column="6" lean-forward="true" selection-start-line="171" selection-start-column="6" selection-end-line="171" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
@@ -80,7 +79,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-10-28-pk8s-demo.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-10-28-pk8s-demo.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Pk8s-pk8s/2018-10-28-pk8s-demo.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -191,12 +190,12 @@
         <option value="$PROJECT_DIR$/blog/pistio/index.html" />
         <option value="$PROJECT_DIR$/blog/pk8s/index.html" />
         <option value="$PROJECT_DIR$/_posts/K8s-k8s/2017-06-29-docker-install.md" />
-        <option value="$PROJECT_DIR$/_posts/K8s-k8s/2018-07-02-k8s-install.md" />
         <option value="$PROJECT_DIR$/css/main.css" />
         <option value="$PROJECT_DIR$/blog/archive/index.html" />
         <option value="$PROJECT_DIR$/_posts/Istio-istio/2018-08-01-istio-install.md" />
         <option value="$PROJECT_DIR$/_posts/Pk8s-pk8s/2017-06-029-pk8s-demo.md" />
         <option value="$PROJECT_DIR$/_posts/Pistio-pistio/2017-06-029-pistio-demo.md" />
+        <option value="$PROJECT_DIR$/_posts/K8s-k8s/2018-07-02-k8s-install.md" />
       </list>
     </option>
   </component>
@@ -444,7 +443,7 @@
       <workItem from="1540626667540" duration="62000" />
       <workItem from="1540640818785" duration="8935000" />
       <workItem from="1540695936385" duration="3731000" />
-      <workItem from="1540699693943" duration="13002000" />
+      <workItem from="1540699693943" duration="13629000" />
     </task>
     <task id="LOCAL-00001" summary="re">
       <created>1540642215473</created>
@@ -457,7 +456,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38923000" />
+    <option name="totallyTimeSpent" value="39550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="446" y="0" width="1554" height="830" extended-state="0" />
@@ -775,16 +774,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/K8s-k8s/2018-07-02-k8s-install.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1530">
-            <caret line="163" column="46" lean-forward="true" selection-start-line="163" selection-start-column="46" selection-end-line="163" selection-end-column="46" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Python-python/2015-05-04-data-structure.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -844,6 +833,16 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="225">
             <caret line="9" column="4" lean-forward="true" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/K8s-k8s/2018-07-02-k8s-install.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1930">
+            <caret line="171" column="6" lean-forward="true" selection-start-line="171" selection-start-column="6" selection-end-line="171" selection-end-column="6" />
           </first_editor>
           <second_editor />
         </state>
