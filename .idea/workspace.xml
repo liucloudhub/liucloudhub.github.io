@@ -2,18 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fb46fd6c-4544-4467-9368-fa3a5564ac0a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Istio-istio/2018-08-01-istio-install.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Istio-istio/2018-08-01-istio-install.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/K8s-k8s/2017-06-29-docker-install.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/K8s-k8s/2017-06-29-docker-install.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/_posts/K8s-k8s/2018-07-02-k8s-install.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/K8s-k8s/2018-07-02-k8s-install.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Pistio-pistio/2017-06-029-pistio-demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Pistio-pistio/2017-06-029-pistio-demo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_posts/Pk8s-pk8s/2017-06-029-pk8s-demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Pk8s-pk8s/2017-06-029-pk8s-demo.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/archive/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/archive/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/istio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/istio/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/k8s/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/k8s/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/pistio/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/pistio/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/pk8s/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/pk8s/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/blog/pythons/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/blog/pythons/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,12 +37,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-08-01-istio-install.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="2018-08-01-istio-install.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Istio-istio/2018-08-01-istio-install.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="75">
-                <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+              <first_editor relative-caret-position="250">
+                <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -105,12 +94,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2018-07-02-k8s-install.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="2018-07-02-k8s-install.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/K8s-k8s/2018-07-02-k8s-install.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="175">
-                <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+              <first_editor relative-caret-position="325">
+                <caret line="163" column="46" lean-forward="true" selection-start-line="163" selection-start-column="46" selection-end-line="163" selection-end-column="46" />
               </first_editor>
               <second_editor />
             </state>
@@ -210,9 +199,9 @@
         <option value="$PROJECT_DIR$/blog/pk8s/index.html" />
         <option value="$PROJECT_DIR$/_posts/Istio-istio/2018-08-01-istio-install.md" />
         <option value="$PROJECT_DIR$/_posts/K8s-k8s/2017-06-29-docker-install.md" />
-        <option value="$PROJECT_DIR$/_posts/K8s-k8s/2018-07-02-k8s-install.md" />
         <option value="$PROJECT_DIR$/_posts/Pistio-pistio/2017-06-029-pistio-demo.md" />
         <option value="$PROJECT_DIR$/_posts/Pk8s-pk8s/2017-06-029-pk8s-demo.md" />
+        <option value="$PROJECT_DIR$/_posts/K8s-k8s/2018-07-02-k8s-install.md" />
       </list>
     </option>
   </component>
@@ -236,11 +225,10 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-37" />
-    <option name="y" value="-30" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="61" />
     <option name="width" value="1943" />
-    <option name="height" value="638" />
+    <option name="height" value="1038" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -461,7 +449,7 @@
       <workItem from="1540626667540" duration="62000" />
       <workItem from="1540640818785" duration="8935000" />
       <workItem from="1540695936385" duration="3731000" />
-      <workItem from="1540699693943" duration="8208000" />
+      <workItem from="1540699693943" duration="9003000" />
     </task>
     <task id="LOCAL-00001" summary="re">
       <created>1540642215473</created>
@@ -474,10 +462,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34129000" />
+    <option name="totallyTimeSpent" value="34924000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="470" y="0" width="1554" height="830" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
@@ -488,12 +476,12 @@
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.030136986" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.030470913" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1920573" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.19155844" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -794,16 +782,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/K8s-k8s/2018-07-02-k8s-install.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="175">
-            <caret line="7" column="9" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/Pistio-pistio/2017-06-029-pistio-demo.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -847,8 +825,18 @@
     <entry file="file://$PROJECT_DIR$/_posts/Istio-istio/2018-08-01-istio-install.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="75">
-            <caret line="3" column="28" lean-forward="true" selection-start-line="3" selection-start-column="28" selection-end-line="3" selection-end-column="28" />
+          <first_editor relative-caret-position="250">
+            <caret line="10" column="29" selection-start-line="10" selection-start-column="29" selection-end-line="10" selection-end-column="29" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/K8s-k8s/2018-07-02-k8s-install.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="325">
+            <caret line="163" column="46" lean-forward="true" selection-start-line="163" selection-start-column="46" selection-end-line="163" selection-end-column="46" />
           </first_editor>
           <second_editor />
         </state>
