@@ -315,6 +315,11 @@ footer .theme-by {
 
 /* --- Post preview --- */
 
+.post-arcpreview {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+
 .post-preview {
   padding: 20px 0;
   border-bottom: 1px solid #eee;

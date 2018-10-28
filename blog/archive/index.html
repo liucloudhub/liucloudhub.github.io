@@ -6,29 +6,30 @@ use-site-title: true
 ---
 {% assign count = 0 %}
 <ol class="post-card-box clearfix">
-        K8s, isito
- <ol class="post-preview">
+
+ <ol class="post-arcpreview">
+    <h4 style="color: #F77A0B">Kubernetes/isito/Docker</h4>
     {% for post in site.posts %}
     {% if post.k8s%}
-<li>
+<li style="color: #008AFF;">
 <div class="blog-archive">
-        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
+        <a href="{{post.url | prepend: site.baseurl}}"   class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 
 </div>
 </li>
     {% endif %}
 
     {% if post.istio%}
-<li>
+<li style="color: #008AFF;">
 <div class="blog-archive">
-        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
+        <a href="{{post.url | prepend: site.baseurl}}"  class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 
 </div>
 </li>
     {% endif %}
 
     {% if post.pk8s%}
-<li>
+<li style="color: #008AFF;">
 <div class="blog-archive">
         <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 
@@ -37,20 +38,22 @@ use-site-title: true
     {% endif %}
 
     {% if post.pistio%}
-<li>
+<li style="color: #008AFF;">
 <div class="blog-archive">
-        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
+        <a href="{{post.url | prepend: site.baseurl}}"   class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 </div>
 </li>
     {% endif %}
     {% endfor %}
 </ol>
 
-    Python,数据分析，可视化
- <ol class="post-preview">
+        <br/>
+
+ <ol class="post-arcpreview">
+    <h4 style="color: #F77A0B">Python,数据分析，可视化</h4>
     {% for post in site.posts %}
     {% if post.python%}
-<li>
+<li style="color: #008AFF;">
 <div class="blog-archive">
         <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
 
