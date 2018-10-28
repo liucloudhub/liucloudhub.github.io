@@ -1,7 +1,7 @@
 ---
 layout: page
-title: istio课程实战
-subtitle: 以12306demo系统演示istio使用过程
+title: Istio
+subtitle: istio服务网络的简单使用
 use-site-title: true
 ---
 
@@ -9,7 +9,7 @@ use-site-title: true
 <ol class="post-card-box clearfix">
     {% for post in site.posts %}
 <article class="post-preview">
-    {% if post.pistio%}
+    {% if post.istio%}
 <li>
 <div class="post-card">
 
@@ -17,7 +17,7 @@ use-site-title: true
 </a>
 
 <div class="blog-tags">
-        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4>  Posted on {{ post.date | date: "%B %-d, %Y" }}</a>
+      <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4>  Posted on {{ post.date | date: "%B %-d, %Y" }}</a>
 
 <div class="blog-tags" >
         <a href="{{post.url | prepend: site.baseurl}}" style="text-decoration: none; color: inherit;margin-right:20px;">{{ post.content | strip_html | strip_newlines | truncate: 100 }}</a>

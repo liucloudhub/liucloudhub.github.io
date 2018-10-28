@@ -29,7 +29,7 @@ navbar-links:
     - TAGS: "https://liucloudhub.github.io/tags"
     - PYTHON: "https://liucloudhub.github.io/blog/pythons"
     - K8S: "https://liucloudhub.github.io/blog/k8s"
-    - Learn markdown: "http://www.markdowntutorial.com/"
+    - Istio: "https://liucloudhub.github.io/blog/istio"
   PROJECTS:
     - k8s实战项目: "https://liucloudhub.github.io/blog/project/k8s"
     - istio实战项目: "https://liucloudhub.github.io/blog/project/k8s"
