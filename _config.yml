@@ -30,6 +30,7 @@ navbar-links:
     - PYTHON: "https://liucloudhub.github.io/blog/pythons"
     - K8S: "https://liucloudhub.github.io/blog/k8s"
     - Istio: "https://liucloudhub.github.io/blog/istio"
+    - Architecture: "https://liucloudhub.github.io/blog/arc"
   PROJECTS:
     - k8s实战项目: "https://liucloudhub.github.io/blog/pk8s"
     - istio实战项目: "https://liucloudhub.github.io/blog/pistio"
