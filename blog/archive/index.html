@@ -63,4 +63,22 @@ use-site-title: true
     {% endfor %}
 </ul>
 
+
+
+    <br/>
+
+<ul class="post-arcpreview">
+    <h4 style="color: #F77A0B;margin-left: -50px;">分布式架构</h4>
+    {% for post in site.posts %}
+    {% if post.arc%}
+<li style="color: #008AFF;">
+<div class="blog-archive">
+        <a href="{{post.url | prepend: site.baseurl}}" class="post-card-link"> <h4 class="post-card-title" style="display:inline">{{post.title}}</h4> </a>
+
+</div>
+</li>
+    {% endif %}
+    {% endfor %}
+</ul>
+
 </ol>

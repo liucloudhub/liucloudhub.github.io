@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 每天10分钟系列 -- 了解Zookeeper
+title: 每天10分钟系列之 --- 了解Zookeeper
 image: /img/avatar-icon.png
 date:  2016-03-19 11:00:00 +0800  
 description: 开发工具
