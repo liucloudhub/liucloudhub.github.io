@@ -5,7 +5,7 @@ image: /img/avatar-icon.png
 date:  2016-03-19 11:00:00 +0800  
 description: 开发工具
 img: post-9.jpg # Add image post (optional)
-tags: [架构]
+tags: [arc]
 labels: [zookeeper, 每天10分钟]
 author: # Add name author (optional)
 arc: true

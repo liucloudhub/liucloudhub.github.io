@@ -3,7 +3,7 @@ layout: post
 title:  基于istio在12306demo系统中的应用实例
 image: /img/hello_world.jpeg
 date:  2018-10-28 15:00:00 +0800    
-tags: [istio]
+tags: [pistio]
 labels: [正在开发...]
 pistio: true
 ---
