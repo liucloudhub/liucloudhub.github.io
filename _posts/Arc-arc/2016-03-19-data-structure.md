@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 每天10分钟系列 -- 了解Zookeeper
-image: /img/hello_world.jpeg
+image: /img/avatar-icon.png
 date:  2016-03-19 11:00:00 +0800  
 description: 开发工具
 img: post-9.jpg # Add image post (optional)
@@ -50,11 +50,9 @@ arc: true
   - 一个Zookeeper 集群同一时刻只会有一个Leader, 其他都是Follower或Observer.
     - ZooKeeper 配置很简单，每个节点的配置文件（zoo.cfg)都是一样的，只有myid文件不一样。myid的值必须是zoo.cfg中server.{数值}的{数值}部分。
     - Zoo.cfg 配置文件示例
+  ![zookeeper](http://p6jsga0vv.bkt.clouddn.com/18-11-3/40621374.jpg)
     
-    - ![zookeeper](http://p6jsga0vv.bkt.clouddn.com/18-11-3/40621374.jpg)
-    
-####    
-    在装有ZooKeeper的机器的终端执行Zookeeper-server status 可以看当前结点的Zookeeper是什么角色。Zookeeper 默认只有Leader和Follower两种角色，没有Observer角色。为了使用Observer模式，在任何想变成Observer的结点的配置文件中加入`:peerType:observer` 并在所有server的配置文件中，配置observer模式的server的那行配置追加 `:observer`
+- 在装有ZooKeeper的机器的终端执行Zookeeper-server status 可以看当前结点的Zookeeper是什么角色。Zookeeper 默认只有Leader和Follower两种角色，没有Observer角色。为了使用Observer模式，在任何想变成Observer的结点的配置文件中加入`:peerType:observer` 并在所有server的配置文件中，配置observer模式的server的那行配置追加 `:observer`
 
 
 #### 2. 节点读写分工
@@ -75,8 +73,9 @@ arc: true
     开，只要在SessionTimeout规定的时间内能够重新连接上集群中任意一台服务器，那么之前创建的会话仍然有效。
 
 #### 4. 数据结点
-    ZooKeeper的结构其实就是一个树形结构，leader 就相当于其中的根节点，其它节点就相当于follow节点，每个节点都保留自己的内
+- ZooKeeper的结构其实就是一个树形结构，leader 就相当于其中的根节点，其它节点就相当于follow节点，每个节点都保留自己的内
     容。
+    
 - ZooKeeper 的节点分两类： 持久节点和临时节点
 -   持久节点：
     -   所谓持久节点是指一旦这个`树形结构` 被创建了，除非主动进行对树节点的移除操作，否则这个节点将一直保存在ZooKeeper上。
@@ -113,8 +112,7 @@ arc: true
     - 拉模式
         - 客户端主动发起请求来获取最新数据，通常客户端都采用定时轮询拉取得方式
     
-####    
-    ZooKeeper采用得是推拉相结合的方式:
+- ZooKeeper采用得是推拉相结合的方式:
     - 客户端向服务端注册自己需要关注的节点，一旦该节点的数据发生变更，那么服务端就会向相应的客户端发送Watcher事件通知，客户端接收到这个消息通知后，需要主动到服务端获取最新的数据。
  
 #### 2. 命名服务
@@ -123,14 +121,12 @@ arc: true
 
 - 其中较为常见的就是一些分布式服务框架（如RPC)中的服务地址列表。通过在ZooKeeper里创建顺序节点，能够很容易创建一个全局唯一的路径，这个路径就可以作为一个名字。
 
-#### 
-    ZooKeeper的命名服务即生成全局唯一的ID
+- ZooKeeper的命名服务即生成全局唯一的ID
     
 #### 3. 分布式协调服务/通知
 - ZooKeeper中特有Watcher注册与异步通知机制，能够很好的实现分布式环境下不同机器，甚至不同系统之间的通知与协调，从而实现对数据变更的实时处理。使用方法通常是不同的客户端，如果机器节点发生了变化，那么所有订阅的客户端都能够接收到相应的Watcher通知，并做出相应的处理。
 
-####   
-    ZooKeeper的分布式协调/通知，是一种通用的分布式系统机器间的通信方式。
+- ZooKeeper的分布式协调/通知，是一种通用的分布式系统机器间的通信方式。
 
 #### 4. Master选举
 - Master选举可以说是Zookeeper最典型的应用场景了。比如HDFS中Active NameNode 的选举，YARN中Active ResourceMAnager的选举和HBase中Active HMaster的选举等。
@@ -139,7 +135,7 @@ arc: true
 - 针对Master选举的需求，通常情况下，我们可以选择常见的关系型数据库中的主键特性来实现：
     希望成为Master的机器都向数据库中`插入一条相同主键ID的记录`，数据库会帮我们进行主键冲突检查，也就是说，只有一台机器能插入成功--那么，我们就认为向数据库中成功插入数据的客户机器成为Master。
 
-####   
+#### 唯一性   
     依靠关系型数据库的主键特性，确实能够很好地保证在集群中选举出唯一的一个Master。
     
 - 但是，如果当前选举出的Master挂了，那么该如何处理？谁来告诉我Master挂了呢？显然，关系型数据库无法通知我们这个事件。但是，ZooKeeper可以做到！
@@ -153,6 +149,7 @@ arc: true
 活，一旦发现当前的Master挂了，那么其他客户端将会重新进行 Master 选举。
 
 ####  
+
     这样就实现了Master的动态选举。
 
 
