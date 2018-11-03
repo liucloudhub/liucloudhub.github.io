@@ -34,11 +34,11 @@ arc: true
 #### 四. [总结](#jump4)
 
 
-### <span id="jump1">ZooKeeper功能简介</span>
+### <span id="jump1">1. ZooKeeper功能简介</span>
 ---
 - Zookeeper是一个开源的分布式协调服务，由雅虎创建，是Google Chubby 的开源实现。分布式应用程序可以基于Zookeeper实现诸如数据发布/订阅、负载均衡、命名服务、分布式协调/通知、 集群管理、Master选举、配置维护、名字服务、分布式同步、分布式锁和分布式队列等功能。
 
-### <span id="jump2">ZooKeeper基本概念</span>
+### <span id="jump2">2. ZooKeeper基本概念</span>
 ---
 - 在介绍Zookeeper之前，有必要了解它的几个核心概念。
 #### 1. 集群角色
@@ -49,7 +49,7 @@ arc: true
     
   - 一个Zookeeper 集群同一时刻只会有一个Leader, 其他都是Follower或Observer.
     - ZooKeeper 配置很简单，每个节点的配置文件（zoo.cfg)都是一样的，只有myid文件不一样。myid的值必须是zoo.cfg中server.{数值}的{数值}部分。
-    - Zoo.cfg 配置文件示例
+    - Zoo.cfg 配置文件示例：
   ![zookeeper](http://p6jsga0vv.bkt.clouddn.com/18-11-3/40621374.jpg)
     
 - 在装有ZooKeeper的机器的终端执行Zookeeper-server status 可以看当前结点的Zookeeper是什么角色。Zookeeper 默认只有Leader和Follower两种角色，没有Observer角色。为了使用Observer模式，在任何想变成Observer的结点的配置文件中加入`:peerType:observer` 并在所有server的配置文件中，配置observer模式的server的那行配置追加 `:observer`
@@ -95,7 +95,7 @@ arc: true
 #### 7. Watcher（事件监听器）
 - 是ZooKeeper中一个很重要的特性。ZooKeeper允许用户在指定节点注册一些Watcher，并且在一些特定事件触发的时候，ZooKeeper服务端会将事件通知到感兴趣的客户端上去。该机制是ZooKeeper实现分布式协调服务的重要特性。
 
-### <span id="jump3">Zookeeper应用的典型场景</span>
+### <span id="jump3">三. Zookeeper应用的典型场景</span>
 ---
 - ZooKeeper 是一个高可用的分布式数据管理与协调框架。基于对ZAB算法的实现，该框架能够很好地保证分布式环境中数据的一致性。也是基于这样的特性，使得ZooKeeper成为了解决分布式一致性问题的利器。
 
@@ -169,7 +169,7 @@ arc: true
     - 共享锁
         - 共享锁在同一个进程中很容易实现，但是在跨进程或者在不同 Server 之间就不好实现了。Zookeeper 却很容易实现这个功能，实现方式也是需要获得锁的 Server 创建一个 EPHEMERAL_SEQUENTIAL 目录节点，然后调用 getChildren方法获取当前的目录节点列表中最小的目录节点是不是就是自己创建的目录节点，如果正是自己创建的，那么它就获得了这个锁，如果不是那么它就调用 exists(String path, boolean watch) 方法并监控 Zookeeper 上目录节点列表的变化，一直到自己创建的节点是列表中最小编号的目录节点，从而获得锁，释放锁很简单，只要删除前面它自己所创建的目录节点就行了
 
-### <span id="jump4">总结</span>
+### <span id="jump4">4. 总结</span>
 
 - 本文介绍的 Zookeeper 的基本知识，以及介绍了几个典型的应用场景。这些都是 Zookeeper
  的基本功能，最重要的是 Zoopkeeper 提供了一套很好的分布式集群管理的机制，就是它这种基于
@@ -178,4 +178,4 @@ arc: true
 
 
 {: .box-note}
-**Note:** 本为非作为商业用途，侵删. 如果你遇到任何问题，欢迎下面留言哈！ 整理不易，欢迎打赏！
+**Note:** 本文非作为商业用途，侵删. 如果你遇到任何问题，欢迎下面留言哈！ 整理不易，欢迎打赏！
