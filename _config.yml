@@ -23,7 +23,7 @@ description: A virtual proof that name is awesome!
 
 # List of links in the navigation bar
 navbar-links:
-  Author's home: "https://liucloudhub.github.io"
+  Home: "https://liucloudhub.github.io"
   CATEGORIES:
     - ARCHIVE: "https://liucloudhub.github.io/blog/archive"
     - TAGS: "https://liucloudhub.github.io/tags"
