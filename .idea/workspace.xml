@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="fb46fd6c-4544-4467-9368-fa3a5564ac0a" name="Default" comment="" />
+=======
+    <list default="true" id="fb46fd6c-4544-4467-9368-fa3a5564ac0a" name="Default" comment="">
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/_posts/Pistio-pistio/2018-10-28-pistio-demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Pistio-pistio/2018-07-28-pistio-demo.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_posts/Pk8s-pk8s/2018-10-28-pk8s-demo.md" beforeDir="false" afterPath="$PROJECT_DIR$/_posts/Pk8s-pk8s/2018-07-28-pk8s-demo.md" afterDir="false" />
+=======
+      <change afterPath="$PROJECT_DIR$/_posts/Arc-arc/2016-05-26-hive-s1.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+>>>>>>> cbe509f4cf3f857b8377e350966c9121633ee48e
+    </list>
+>>>>>>> ea9fb9e42cebd1f9cc0c86ca10b640d73ca6110b
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,12 +56,33 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+<<<<<<< HEAD
+      <file leaf-file-name="2016-03-19-zookeeper-s1.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Arc-arc/2016-03-19-zookeeper-s1.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="600">
+                <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2016-05-20-hdfs-s1.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Arc-arc/2016-05-20-hdfs-s1.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="425">
+                <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Arc-arc/2016-05-20-hdfs-s1.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="150">
                 <caret line="12" selection-start-line="12" selection-end-line="12" />
+>>>>>>> cbe509f4cf3f857b8377e350966c9121633ee48e
               </first_editor>
               <second_editor />
             </state>
@@ -86,24 +119,34 @@
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="2018-07-28-pistio-demo.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/Pistio-pistio/2018-07-28-pistio-demo.md">
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Pistio-pistio/2018-10-28-pistio-demo.md">
+>>>>>>> cbe509f4cf3f857b8377e350966c9121633ee48e
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="125">
-                <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+                <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
+      <file leaf-file-name="2018-07-28-pk8s-demo.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/Pk8s-pk8s/2018-07-28-pk8s-demo.md">
+=======
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/Pk8s-pk8s/2018-10-28-pk8s-demo.md">
+>>>>>>> cbe509f4cf3f857b8377e350966c9121633ee48e
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
               <first_editor relative-caret-position="125">
-                <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+                <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
               </first_editor>
               <second_editor />
             </state>
@@ -241,7 +284,12 @@
         <option value="$PROJECT_DIR$/_config.yml" />
         <option value="$PROJECT_DIR$/_posts/Arc-arc/2016-03-19-zookeeper-s1.md" />
         <option value="$PROJECT_DIR$/_posts/Arc-arc/2016-05-20-hdfs-s1.md" />
+<<<<<<< HEAD
+        <option value="$PROJECT_DIR$/_posts/Pk8s-pk8s/2018-07-28-pk8s-demo.md" />
+        <option value="$PROJECT_DIR$/_posts/Pistio-pistio/2018-07-28-pistio-demo.md" />
+=======
         <option value="$PROJECT_DIR$/_posts/Arc-arc/2016-05-26-hive-s1.md" />
+>>>>>>> cbe509f4cf3f857b8377e350966c9121633ee48e
       </list>
     </option>
   </component>
@@ -262,11 +310,29 @@
     <option name="jreName" value="1.8" />
     <option name="vmOptions" value="-Dmaven.multiModuleProjectDirectory=$M2_HOME" />
   </component>
+<<<<<<< HEAD
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-10" />
+    <option name="y" value="-10" />
+    <option name="width" value="1939" />
+    <option name="height" value="1049" />
+=======
+  <component name="ProjectFrameBounds" extendedState="6">
+<<<<<<< HEAD
     <option name="x" value="-36" />
     <option name="y" value="-21" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
+=======
+    <option name="x" value="325" />
+    <option name="y" value="-12" />
+    <option name="width" value="1943" />
+    <option name="height" value="1040" />
+>>>>>>> cbe509f4cf3f857b8377e350966c9121633ee48e
+>>>>>>> ea9fb9e42cebd1f9cc0c86ca10b640d73ca6110b
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -492,8 +558,16 @@
       <workItem from="1540823695245" duration="33000" />
       <workItem from="1541208355859" duration="4072000" />
       <workItem from="1541226341280" duration="969000" />
+<<<<<<< HEAD
+      <workItem from="1541580087492" duration="687000" />
+=======
       <workItem from="1541580087492" duration="341000" />
+<<<<<<< HEAD
       <workItem from="1541584820745" duration="1769000" />
+=======
+      <workItem from="1541584820745" duration="1340000" />
+>>>>>>> cbe509f4cf3f857b8377e350966c9121633ee48e
+>>>>>>> ea9fb9e42cebd1f9cc0c86ca10b640d73ca6110b
     </task>
     <task id="LOCAL-00001" summary="re">
       <created>1540642215473</created>
@@ -506,15 +580,46 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="46804000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="45381000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+=======
+    <option name="totallyTimeSpent" value="46375000" />
+>>>>>>> ea9fb9e42cebd1f9cc0c86ca10b640d73ca6110b
   </component>
   <component name="ToolWindowManager">
     <frame x="-75" y="197" width="1382" height="744" extended-state="1" />
     <editor active="true" />
+>>>>>>> cbe509f4cf3f857b8377e350966c9121633ee48e
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23676248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
+<<<<<<< HEAD
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Maven Projects" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" visible="true" weight="0.02739726" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="2" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20963542" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+=======
       <window_info id="Designer" order="3" />
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
@@ -524,6 +629,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+>>>>>>> cbe509f4cf3f857b8377e350966c9121633ee48e
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
@@ -772,6 +878,15 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/_posts/Test-test/2015-02-28-test-markdown.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="325">
+            <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+          </first_editor>
+          <second_editor />
+=======
     <entry file="file://$PROJECT_DIR$/_posts/Arc-arc/2016-03-19-zookeeper-s1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -786,6 +901,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="725">
           <caret line="29" selection-start-line="29" selection-end-line="29" />
+>>>>>>> cbe509f4cf3f857b8377e350966c9121633ee48e
         </state>
       </provider>
     </entry>
@@ -799,6 +915,12 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/blog/arc/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="39" column="15" selection-start-line="39" selection-start-column="15" selection-end-line="39" selection-end-column="15" />
+=======
     <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="800">
@@ -823,6 +945,7 @@
             <caret line="5" column="12" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
           </first_editor>
           <second_editor />
+>>>>>>> cbe509f4cf3f857b8377e350966c9121633ee48e
         </state>
       </provider>
     </entry>
@@ -871,8 +994,33 @@
     <entry file="file://$PROJECT_DIR$/_posts/Arc-arc/2016-05-26-hive-s1.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
+<<<<<<< HEAD
           <first_editor relative-caret-position="-1549">
             <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+=======
+          <first_editor relative-caret-position="425">
+            <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Pk8s-pk8s/2018-07-28-pk8s-demo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="5" column="12" lean-forward="true" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/Pistio-pistio/2018-07-28-pistio-demo.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="125">
+            <caret line="5" column="14" lean-forward="true" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+>>>>>>> ea9fb9e42cebd1f9cc0c86ca10b640d73ca6110b
           </first_editor>
           <second_editor />
         </state>
