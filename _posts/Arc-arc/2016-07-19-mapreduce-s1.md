@@ -11,7 +11,7 @@ author: # Add name author (optional)
 arc: true
 ---
 ### MapReduce简介
-- MapReduce是一种分布式计算模型，是Google提出的，主要用于搜索领域，解决海量数据的计算问题。
+- MapReduce（Hadoop的计算框架，和hdfs联系紧密）是一种分布式计算模型，是Google提出的，主要用于搜索领域，解决海量数据的计算问题。
 - MR有两个阶段组成： Map和Reduce， 用户只需要实现map()和reduce()两个函数，即可实现分布式计算。
 
 #### MR框架
